@@ -55,7 +55,7 @@ fastapi-cli==0.0.4
     # via fastapi
 fastapi-slim==0.111.1
     # via -r requirements/base.in
-fastapi-users==13.0.0
+fastapi-users[sqlalchemy]==13.0.0
     # via
     #   -r requirements/base.in
     #   fastapi-users-db-sqlalchemy
@@ -121,7 +121,7 @@ playwright==1.45.1
     # via -r requirements/test.in
 pluggy==1.5.0
     # via pytest
-pwdlib==0.2.0
+pwdlib[argon2,bcrypt]==0.2.0
     # via fastapi-users
 pycparser==2.22
     # via cffi
@@ -139,7 +139,7 @@ pyee==11.1.0
     # via playwright
 pygments==2.18.0
     # via rich
-pyjwt==2.8.0
+pyjwt[crypto]==2.8.0
     # via fastapi-users
 pytest==8.3.2
     # via
@@ -171,7 +171,7 @@ sniffio==1.3.1
     #   httpx
 soupsieve==2.5
     # via beautifulsoup4
-sqlalchemy==2.0.31
+sqlalchemy[asyncio]==2.0.31
     # via
     #   alembic
     #   fastapi-users-db-sqlalchemy
@@ -200,13 +200,13 @@ typing-extensions==4.12.2
     #   pyee
     #   sqlalchemy
     #   typer
-uvicorn==0.30.3
+uvicorn[standard]==0.30.3
     # via
     #   -r requirements/base.in
     #   fastapi
 uvloop==0.19.0
     # via uvicorn
-wat-inspector==0.2.1
+wat-inspector==0.3.3
     # via -r requirements/test.in
 watchfiles==0.22.0
     # via uvicorn
