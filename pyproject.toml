@@ -43,7 +43,7 @@ dependencies = [
     # bindings for the pgvector embeddings & vector similarity library
     "pgvector~=0.3.0",
     # FastAPI settings
-    "pydantic-settings~=2.3.2",
+    "pydantic-settings~=2.6.0",
     # ORM
     # 0-based versioning necessitates tight pinning
     "sqlmodel==0.0.21",
