@@ -68,7 +68,7 @@ test = [
     "playwright~=1.45",
     "pytest~=8.2",
     "pytest-asyncio~=0.23",
-    "time-machine~=2.14.2",
+    "time-machine~=2.16.0",
 ]
 
 [tool.ruff]
