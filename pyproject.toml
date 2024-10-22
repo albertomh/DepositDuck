@@ -50,7 +50,7 @@ dependencies = [
     # logging
     "structlog~=24.4",
     # ASGI server
-    "uvicorn[standard]~=0.30.1",
+    "uvicorn[standard]~=0.32.0",
 ]
 
 [tool.uv]
