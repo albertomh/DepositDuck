@@ -27,7 +27,7 @@ dependencies = [
     "asyncpg~=0.29.0",
     "cryptography~=42.0.5",
     # web framework
-    "fastapi-slim~=0.111.0",
+    "fastapi-slim~=0.115.2",
     # authentication framework
     "fastapi-users[sqlalchemy]~=13.0.0",
     "fastapi-users-db-sqlmodel~=0.3.0",
